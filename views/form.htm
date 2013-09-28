@@ -1,0 +1,24 @@
+<?php
+
+if (empty($formfields_ctt)) return '';
+
+?>
+<div class="form">
+<form action="<?php echo current_url(true); ?>" method="post" id="<?php echo $form_id; ?>" name="<?php echo $form_id; ?>"
+	<?php echo( (!empty($multipart) && $multipart===true) ? ' enctype="multipart/form-data"' : ''); ?>>
+
+<?php if (isset($errors['form'])): ?>
+			<label class="nobg">&nbsp;</label><span class="error"><?php echo $errors['form']; ?></span>
+<?php endif; ?>
+
+<?php echo $formfields_ctt; ?>
+
+<div class="field buttons">
+	<input type="submit" value="Submit" />
+	<input type="reset" value="Reset" />
+	<input type="button" value="Cancel" onclick="history.go(-1);" />
+</div>
+
+</form>
+</div>
+<br class="clear" />

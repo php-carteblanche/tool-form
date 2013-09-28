@@ -1,4 +1,4 @@
-tool-form
-=========
+carte-blanche-tool-form
+=======================
 
-A tool to build and manage forms in CarteBlanche
+The form tool generator for the [CarteBlanche framework](https://github.com/php-carteblanche/carteblanche).
