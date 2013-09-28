@@ -15,6 +15,9 @@
         "php": ">=5.3.0",
         "carte-blanche/core": "dev-master"
     },
+    "require-dev": {
+        "carte-blanche/core": "dev-wip"
+    },
     "repositories": [{
         "type": "composer", "url": "http://packagist.ateliers-pierrot.fr/"
     }]
