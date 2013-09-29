@@ -13,7 +13,7 @@ use \CarteBlanche\CarteBlanche;
 use \CarteBlanche\App\Kernel;
 use \CarteBlanche\App\FrontController;
 use \CarteBlanche\App\Router;
-use \CarteBlanche\App\Abstracts\AbstractTool;
+use \CarteBlanche\Abstracts\AbstractTool;
 
 class Form extends AbstractTool
 {

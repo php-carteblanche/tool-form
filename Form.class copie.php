@@ -12,7 +12,7 @@ namespace Tool;
 
 use \CarteBlanche\App\Kernel;
 use \CarteBlanche\App\Router;
-use \CarteBlanche\App\Abstracts\AbstractTool;
+use \CarteBlanche\Abstracts\AbstractTool;
 
 class Form extends AbstractTool
 {
@@ -259,7 +259,7 @@ exit('yo');
 					$table_ok = $db->table_exists($related_object);
 
 					$_altdb = $this->container->get('request')->getUrlArg('altdb', null);
-					$tables = \CarteBlanche\Lib\AutoObject\AutoObjectMapper::getObjectsStructure($_altdb);
+					$tables = \CarteBlanche\Library\AutoObject\AutoObjectMapper::getObjectsStructure($_altdb);
 					if ($tables)
 					foreach($tables as $table) 
 					{

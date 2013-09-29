@@ -157,7 +157,7 @@ abstract class AbstractFormField
 
 //echo '<br />searching validation function "'.$fct.'"';
 //echo '<br />&nbsp;&nbsp;&nbsp;&nbsp;treating validation "'.$fct.'" on value "'.$this->getValue().'"';
-					$callback = new \CarteBlanche\Lib\Callback(
+					$callback = new \CarteBlanche\Library\Callback(
 						$this->getValue(), array($fct), 'boolean'
 					);
 					$response = $callback->getResult();

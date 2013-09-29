@@ -198,7 +198,7 @@ if (!function_exists('is_image'))
 {
 	function is_image($str=null) 
 	{
-		$_f = \CarteBlanche\Lib\File::createFromContent( $str );
+		$_f = \CarteBlanche\Library\File::createFromContent( $str );
 		return !empty($_f) ? $_f->isImage() : false;
 	}
 }
