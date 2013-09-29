@@ -4,7 +4,7 @@
  * @author 		Piero Wbmstr <piero.wbmstr@gmail.com>
  * @license   	GPL v3
  * @copyright 	Les Ateliers Pierrot <http://www.ateliers-pierrot.fr>
- * @link      	https://github.com/atelierspierrot/carte-blanche
+ * @link      	https://github.com/php-carteblanche/carteblanche
  * @package   	Tools
  */
 
