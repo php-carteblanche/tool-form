@@ -3,8 +3,8 @@
  * CarteBlanche - PHP framework package - Form tool
  * Copyleft (c) 2013 Pierre Cassat and contributors
  * <www.ateliers-pierrot.fr> - <contact@ateliers-pierrot.fr>
- * License GPL-3.0 <http://www.opensource.org/licenses/gpl-3.0.html>
- * Sources <https://github.com/atelierspierrot/carte-blanche>
+ * License Apache-2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>
+ * Sources <http://github.com/php-carteblanche/carteblanche>
  */
 
 namespace Tool\Form;
@@ -157,7 +157,7 @@ abstract class AbstractFormField
 
 //echo '<br />searching validation function "'.$fct.'"';
 //echo '<br />&nbsp;&nbsp;&nbsp;&nbsp;treating validation "'.$fct.'" on value "'.$this->getValue().'"';
-					$callback = new \CarteBlanche\Lib\Callback(
+					$callback = new \CarteBlanche\Library\Callback(
 						$this->getValue(), array($fct), 'boolean'
 					);
 					$response = $callback->getResult();

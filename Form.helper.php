@@ -3,8 +3,8 @@
  * CarteBlanche - PHP framework package - Form tool
  * Copyleft (c) 2013 Pierre Cassat and contributors
  * <www.ateliers-pierrot.fr> - <contact@ateliers-pierrot.fr>
- * License GPL-3.0 <http://www.opensource.org/licenses/gpl-3.0.html>
- * Sources <https://github.com/atelierspierrot/carte-blanche>
+ * License Apache-2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>
+ * Sources <http://github.com/php-carteblanche/carteblanche>
  */
 
 if (!function_exists('__xss_clean')) 
@@ -198,7 +198,7 @@ if (!function_exists('is_image'))
 {
 	function is_image($str=null) 
 	{
-		$_f = \CarteBlanche\Lib\File::createFromContent( $str );
+		$_f = \CarteBlanche\Library\File::createFromContent( $str );
 		return !empty($_f) ? $_f->isImage() : false;
 	}
 }
