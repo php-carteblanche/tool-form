@@ -11,7 +11,8 @@
         "homepage": "http://www.ateliers-pierrot.fr/"
     }],
     "require": {
-        "carte-blanche/core": "dev-cb_wip"
+        "carte-blanche/core": "dev-cb_wip",
+        "carte-blanche/installer": "dev-cb_wip"
     },
     "repositories": [{
         "type": "composer", "url": "http://packagist.ateliers-pierrot.fr/"
