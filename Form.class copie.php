@@ -1,7 +1,7 @@
 <?php
 /**
  * @category  	CarteBlanche
- * @author 		Piero Wbmstr <piero.wbmstr@gmail.com>
+ * @author 		Piero Wbmstr <piwi@ateliers-pierrot.fr>
  * @license   	GPL v3
  * @copyright 	Les Ateliers Pierrot <http://www.ateliers-pierrot.fr>
  * @link      	https://github.com/php-carteblanche/carteblanche
