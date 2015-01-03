@@ -1,7 +1,18 @@
-<?php if (!defined('JSCALENDAR')) : 
+<?php 
+/**
+ * This file is part of the CarteBlanche PHP framework.
+ *
+ * (c) Pierre Cassat <me@e-piwi.fr> and contributors
+ *
+ * License Apache-2.0 <http://github.com/php-carteblanche/carteblanche/blob/master/LICENSE>
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+if (!defined('JSCALENDAR')) : 
 
 $_template = \CarteBlanche\CarteBlanche::getContainer()->get('template_engine');
-$_template->getTemplateObject('JavascriptFile')
+$_template->getAssetObject('JavascriptFile')
 	->add('assets/js/calendrier.js');
 ?>
 		<table class="ds_box" cellpadding="0" cellspacing="0" id="ds_conclass" style="display: none;">
